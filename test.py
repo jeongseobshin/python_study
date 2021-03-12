@@ -69,7 +69,7 @@
 #             if season == "winter":
 #                 print("겨울에는 눈이 와요~")
 
-#season = input()
+# season = input()
 
 # if season == "spring":
 #     print("봄이 왔네요!")
@@ -84,8 +84,8 @@
 
 # i = 1
 # while i < 11: # 조건식
-    # print("파이썬 " + str(i))
-    # i = i + 1 # 탈출 조건
+#     print("파이썬 " + str(i))
+#     i = i + 1 # 탈출 조건
 
 
     
@@ -106,7 +106,7 @@
 #     for row in range(1, 10):
 #         print (col, " x ", row, " = ", col * row)
 
-# for col in range(2, 10)
+# for col in range(2, 10):
 #     if col > 5:
 #         break
 #     for row in range(1, 10):
@@ -118,7 +118,7 @@
 #     print(n, "은 홀수입니다.")
 
 
-#class Dog: # 클래스 선언
+# class Dog: # 클래스 선언
 #     name = "삼식이"
 #     age = 3
 #     breed = "골든 리트리버"  
@@ -131,13 +131,13 @@
 # my_dog.bark()       # 인스턴스의 메소드 호출
 
 
-#구구단1
+# # 구구단1
 # for i in range(1,10):
 #   print("\n{}단!".format(i), end="\n")
 #   for j in range(1,10):
 #     print("{} X {} = {}".format(i, j, i * j))
 
-#구구단 업그레이드
+# # 구구단 업그레이드
 # result = ""
 
 # for i in range(1,10):
@@ -162,4 +162,35 @@
 # for url in list1:
 #   webbrowser.open(url)
 #   time.sleep(2)
+
+# import random
+
+# time = random.randint(1,24)
+# print("Good morning, it's " + str(time) + "o'clock.")
+
+# sunny = random.choice([True, False])
+# if sunny:
+#     print("it's sunny now")
+# else:
+#     print("it's groomy now")
+
+# if time >=6 and time <9 and sunny:
+#     print("bird songs")
+# else:
+#     print("bird doesn't song")
+
+# # 구구단
+# dan = int(input("단 : "))
+# i = 1
+# while i <=9:
+#     print("%s * %s = %s" %(dan,i,dan*i))
+#     i = i+1
+
+# # 1~100 난수 10개 출력
+# import random
+# randomlist = []
+# for i in range(10):
+#     n = random.randint(1,100)
+#     randomlist.append(n)
+# print(randomlist)
 
